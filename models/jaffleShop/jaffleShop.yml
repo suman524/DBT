@@ -2,6 +2,11 @@ sources:
   - name: jaffle_source
     database: raw
     schema: jaffle_shop
-    tables:
+    tables: 
+      
       - name: orders
+        description: "This is orders table and this is used to store order information "
+  
+
       - name: customers
+        description: "This is customers table and this is used to store customers information "
